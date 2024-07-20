@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demoStreamsProcessorApp
+  kafka:
+    streams:
+      bootstrap-servers: localhost:9092
+      state-dir: 'state'
+    properties:
+      default:
+        key.serde: 'org.apache.kafka.common.serialization.Serdes$StringSerde'
+        value.serde: 'org.apache.kafka.common.serialization.Serdes$StringSerde'

@@ -1,0 +1,4 @@
+spring:
+  kafka:
+    streams:
+      application-id: 'user-activity-app'

@@ -1,0 +1,4 @@
+spring:
+  kafka:
+    streams:
+      application-id: 'iot-status-app'
